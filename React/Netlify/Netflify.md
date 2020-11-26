@@ -1,12 +1,16 @@
 # Netlify
 
 ## Useful Links
-[Netlify Website](https://www.netlify.com/)
-[Example App](https://github.com/ChaseStruse/GithubUserFinder)
+
+[Netlify Website](https://www.netlify.com/) <br>
+[Example App](https://github.com/ChaseStruse/GithubUserFinder) <br>
 
 ## Useful Commands
-netlify init  (Initializes the netlify server)
 
-netlify deploy --prod (Deploys to production server)
+<code> netlify init </code>  (Initializes the netlify server)
+
+<code> netlify deploy --prod </code> (Deploys to production server)
+
 ## WTF Why isnt this working? 
-If you are having an issue with 404 page not found: [link](https://github.com/ChaseStruse/GithubUserFinder/blob/master/public/_redirects)
+
+If you are having an issue with 404 page not found add this file to your project: [link](https://github.com/ChaseStruse/GithubUserFinder/blob/master/public/_redirects)
