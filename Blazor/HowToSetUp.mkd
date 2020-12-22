@@ -1,0 +1,5 @@
+# How to Create App
+dotnet new blazorserver -o NAMEofPROJECT --no-https
+
+# Run the App
+dotnet run
