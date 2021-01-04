@@ -3,3 +3,6 @@ dotnet new blazorserver -o NAMEofPROJECT --no-https
 
 # Run the App
 dotnet run
+
+# Create a new component
+dotnet new razorcomponent -n ComponentName -o Pages
