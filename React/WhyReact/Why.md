@@ -2,12 +2,14 @@
 
 This is a question I ask regarding all languages and this will help answer that question.
 
-Sections:
-[StartOfReact](#start)
-[Concepts](#concepts)
+Sections: <br />
+[Start Of React](#start) - Brief history of React and its predecessors<br />
+[Concepts](#concepts) - Concepts that make up React<br />
+[Keywords](#keywords) - Good Keywords to know<br />
+[Things Good Developers Do](#gooddev) - What senior React developers should know<br />
 
-## Start of React (Birth of React)
-<a name="start"></a>
+## <a name="start"></a> Start of React (Birth of React)
+
 Release Year: 2013
 
 Prior to react, we had HTML, CSS, and JS. This allowed for basic static sites. Problems arose because each browser reacted differently based on the JS and this was an issue because you would have to use different devs for different browser.
@@ -26,14 +28,14 @@ Once the websites began getting bigger and greater complexity frameworks like An
 
 In 2013 Facebook came out with React. This would allow developers to more efficiently build applications and improve on this issues found with AngularJS. 
 
-## React Concepts
-<a name="concepts"></a>
-1. React will handle the DOM, no need to worry Chase 
-2. Build websites like Lego blocks (AKA Components)
-3. One way data flow
-4. UI Library, you can figure the rest out
+## <a name="concepts"></a> React Concepts
 
-## Keywords
+1. [React will handle the DOM](#concept1), no need to worry Chase 
+2. [Build websites like Lego blocks](#concept2) (AKA Components)
+3. [One way data flow](#concept3)
+4. [UI Library](#concept4), you can figure the rest out
+
+## <a name="keywords"></a> Keywords
 
 State - Current JSX that is being displayed. Contains things such as loggedIn: true
 
@@ -47,13 +49,13 @@ JSX - Mix between JS and HTML, how the components are rendered to be displayed.
 
 VirtualDOM - Used by React to generate a blueprint to later be used on the real DOM
 
-## Things good React Developers focus on
+## <a name="gooddev"></a> Things good React Developers focus on
 
 1. Decide on Components
 2. Decide the State and where it lives
 3. What changes when state changes
 
-### React will handle the DOM
+### <a name="concept1"></a> React will handle the DOM
 
 Prior to React, developers would have to directly interact with the DOM by using commands like GetElementById and etc (didnt want to type all those out, you get the point). 
 
@@ -65,13 +67,13 @@ While intuitive it created issues with debugging big projects.
 
 That is why React takes a declarative approach. Allowing for just two major functions rather than doing a bunch of individual interactions. You just need to create the "state" and react will take care of implementing the state on the page. This is why it is declarative, we Declare what we want it to do and React does it. Making it easy to debug because all of the states are within one section. 
 
-### Build websites like Lego blocks
+### <a name="concept2"></a> Build websites like Lego blocks
 
 You would create small components, such as you would have a Chat Component, an Ad Component, Story Component, etc. Not only are these a lot better to organize and debug, they also allow for reusability, one of the best terms in programming to hear about your code! I can reuse that ad component across the website with no issue and even if I am on a seperate page I will still only have to debug that one component. 
 
 Component is just JS function or class that takes in props or different data from the state to create JSX. 
 
-### One way data flow
+### <a name="concept3"></a> One way data flow
 
 State Change -> State -> Component -> JSX (From Component) -> Virtual DOM
 
@@ -81,7 +83,7 @@ For the page to change, state must change. State changing could be clicking a bu
 
 With the restriction of data only being able to move one way, it makes it easier for developers to trace data and trace bugs. 
 
-### UI Library
+### <a name="concept4"></a> UI Library
 
 AngularJS comes with everything, UI manager, context manager, and all of the backend stuff. 
 
