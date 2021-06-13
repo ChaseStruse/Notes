@@ -4,33 +4,33 @@
 to a commonly occuring problem within a given context
 
 **Importance of Design Patterns:** 
-    - Avoid reinventing the wheel
-    - Allows for better effectiveness and less duplicated code
-    - Help advance career
-    - Improves communication with other developers
+- Avoid reinventing the wheel
+- Allows for better effectiveness and less duplicated code
+- Help advance career
+- Improves communication with other developers
 
 **Pattern Definition:**
-    - **Name and Classification**
-    - **Intent**
-    - Also Known As
-    - **Motivation or Scenario**
-    - **Applicablility or Context**
-    - Structure 
-    - Participants
-    - Collaboration (How do they interact with one another)
-    - Consequences/Trade offs
-    - Implementation
-    - Sample Code
-    - Known Uses
-    - Related Patterns and how they can be used together
-    * Bolded are bare minimum
+- **Name and Classification**
+- **Intent**
+- Also Known As
+- **Motivation or Scenario**
+- **Applicablility or Context**
+- Structure 
+- Participants
+- Collaboration (How do they interact with one another)
+- Consequences/Trade offs
+- Implementation
+- Sample Code
+- Known Uses
+- Related Patterns and how they can be used together
+* Bolded are bare minimum
 
 **When to apply?**
-    - Start by doing a kata or exercise
-    - Use tests to verify that the code still works the same
-    - Attempt different variations of said pattern
-    - Can also practice in seperate branch
-    - When using a new pattern in code ensure tests are wrapped around said code
+- Start by doing a kata or exercise
+- Use tests to verify that the code still works the same
+- Attempt different variations of said pattern
+- Can also practice in seperate branch
+- When using a new pattern in code ensure tests are wrapped around said code
 
 [Katas]("https://github.com/ardalis/kata-catalog")
 
