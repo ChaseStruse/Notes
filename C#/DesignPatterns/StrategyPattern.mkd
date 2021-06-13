@@ -1,0 +1,37 @@
+# Strategy Design Pattern Notes
+
+## Parts of the pattern
+
+**Context:** Has a reference to the strategy and invokes it <br />
+**Strategy:** Implementation of the strategy <br />
+**Interface for the strategy** <br />
+
+-------------------------------------------------------------------------
+## Form of Payment Example
+
+**Strategy**
+- USDBuyingStrategy()
+- BitcoinBuyingStrategy()
+
+**IStrategy**
+- GetPaymentProcessFor(Payment formOfPayment)
+
+**Context**
+- Invokes IStrategy.GetPaymentProcessFor(formOfPayment)
+
+**Flow of Data:**
+Context -> IStrategy --> Strategy Needed (USD or Bitcoin)
+-------------------------------------------------------------------------
+## Receipt Delivery Example
+
+**Strategy**
+- SendByEmail()
+- Print()
+- NoReceipt()
+
+**IStrategy**
+- CutomerReceipt(DeliveryMethod deliveryMethod)
+
+**Context**
+- Invokes IStrategy.CustomerReceipt(deliveryMethod)
+-------------------------------------------------------------------------
