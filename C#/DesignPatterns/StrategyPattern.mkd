@@ -35,3 +35,8 @@ Context -> IStrategy --> Strategy Needed (USD or Bitcoin)
 **Context**
 - Invokes IStrategy.CustomerReceipt(deliveryMethod)
 -------------------------------------------------------------------------
+
+## Benefits
+- Makes it easy to modify a strategy without ruining other strategies
+- Allows for easier testing
+- Cleaner approach and single responsibility
