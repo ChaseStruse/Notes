@@ -32,5 +32,13 @@ to a commonly occuring problem within a given context
 - Can also practice in seperate branch
 - When using a new pattern in code ensure tests are wrapped around said code
 
+**Patterns Worth Looking Into:**
+- Strategy
+- Repository
+- Adapter
+- Factory
+- Proxy/Decorator
+- Singleton
+
 [Katas]("https://github.com/ardalis/kata-catalog")
 
