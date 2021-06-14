@@ -1,0 +1,28 @@
+# Singleton Pattern
+
+## Definition
+
+**Singleton is a class designed to only ever have one instance </br> of itself created**
+
+## Single Instance Examples
+
+- Access to a file system
+- Access to a Shared Network Resource
+- If it is expensive to configure multiple times
+
+## Structure
+
+- Single Class
+- Private Instance
+- Public method to access that instance
+- Private Constructor
+
+## Features of a Singleton
+
+- At any time you can only have 0 or 1 instance
+- Created without parameters
+- Lazy instantiation as the default
+- Single private parameterless constructor
+- Class should be marked as *Sealed*
+- Private static field holds the only reference
+- Public static method that provides access to this field
