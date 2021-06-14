@@ -40,3 +40,5 @@ Context -> IStrategy --> Strategy Needed (USD or Bitcoin)
 - Makes it easy to modify a strategy without ruining other strategies
 - Allows for easier testing
 - Cleaner approach and single responsibility
+
+-------------------------------------------------------------------------
