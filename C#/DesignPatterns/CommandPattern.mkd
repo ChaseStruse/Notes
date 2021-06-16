@@ -18,8 +18,12 @@ Client --Schedule a run of the command-->  Invoker (Sets a rule to invoke at the
 
 - Allows for easy undo/redo functionality
     - EX: App crashes, when reopened you can redo those commands
+- Makes it easier to implement more functionality without creating breaking changes
 
 ## Trade Offs
+
+- Adds to complexity due to adding another layer to the application
+    - This could be remedied with good documentation
 
 ## Typical Naming Conventions
 
@@ -27,7 +31,6 @@ Client --Schedule a run of the command-->  Invoker (Sets a rule to invoke at the
     - Will have an invoke() method
 - Command, tends to be called SomethingCommand
     - Will have CanExecutre(), Execute(), and Undo()
-- Receiver, tends to be called 
 
 ## Examples
 
