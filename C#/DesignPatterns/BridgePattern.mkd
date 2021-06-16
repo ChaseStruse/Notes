@@ -1,0 +1,72 @@
+# Bridge Design Pattern
+
+## What is it?
+
+Split a class hierarchy through the use of composition to reduce coupling
+
+## Benefits
+
+- Reduced complexity
+- Modular
+- Independent and allow you to modify easily
+- Easy to test
+
+## Tradeoffs
+
+- Will have a lot of classes
+
+## Example 
+
+**Online Movie Theater** <br/><br/>
+
+- MovieLicense (abstract class)
+    - Title
+    - PurchaseTime
+    - Discount
+    - GetCorePrice()
+    - GetPrice()
+    - GetExpiration
+- TwoDayLicense (class) : MovieLicense
+    - Constructor(title, purchaseTime, discount)
+    - GetCorePrice()
+        - Returns 4 (dollars)
+    - GetPrice()
+        - Returns 4 (dollars) * discountPercent
+    - GetExpiration()
+        - Returns 2 (days)
+
+- LifeLongLicense (class) : MovieLicense
+    - Constructor(title, purchaseTime, discount)
+    - GetCorePrice()
+        - Returns 10 (dollars)
+    - GetPrice()
+        - Returns 10 (dollars) * discountPercent
+    - GetExpiration()
+        - Returns null due to it never expiring
+
+- Discount (abstract class)
+    - GetDiscount()
+
+- NoDiscount (class) : Discount
+    - GetDiscount()
+        - returns null
+
+- SeniorDiscount (class) : Discount
+    - GetDiscount()
+        - returns 10 (percent)
+
+- MilitaryDiscount (class) : Discount
+    - GetDiscount()
+        - returns 15 (oercent)
+
+**Class Hierarchy** </br>
+- MovieLicense
+    - TwoDayLicense
+    - LifeLongLicense
+- Discount
+    - SeniorDiscount
+    - MilitaryDiscount
+    - NoDiscount
+
+**Explanation:** </br>
+The bridge is between the Discount and MovieLicense, these two are now bridge rather then creating a huge class heirarchy and making the complexity shoot up. 
