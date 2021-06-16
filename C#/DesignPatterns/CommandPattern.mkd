@@ -14,6 +14,8 @@ Client --Schedule a run of the command-->  Invoker (Sets a rule to invoke at the
 
 ## What is it?
 
+Command Pattern allows for better, more readable code that abstracts the layers and allows the developer to create a concrete flow of data. It will add more layers but ultimately it will help with readability and better structure.
+
 ## Benefits
 
 - Allows for easy undo/redo functionality
