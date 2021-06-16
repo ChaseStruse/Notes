@@ -30,7 +30,42 @@ Client --Schedule a run of the command-->  Invoker (Sets a rule to invoke at the
 - Invoker, tends to be called SomethingManager
     - Will have an invoke() method
 - Command, tends to be called SomethingCommand
-    - Will have CanExecutre(), Execute(), and Undo()
+    - Will have CanExecute(), Execute(), and Undo()
 
-## Examples
+## Example
 
+**Commands:**
+- OrderCommand 
+    - Execute(order)
+- InsertOrderCommand : IOrderCommand
+    - Execute(order)
+- ModifyOrderCommand : IOrderCommand
+    - Execute(order)
+- RemoveOrderCommand : IOrderCommand
+    - Execute(order)
+
+**Receiver:**
+- Restaurant
+    - ExecuteCommand(IOrderCommand commandToBeExecuted, Order order)
+
+**Invoker:**
+- WaiterInvoker
+    - SetOrderCommand()
+        - Takes user input to determine the command (Order, Modify, or Remove)
+    - ExecuteCommand()
+        - Restaurant.ExecuteCommand(orderCommand)
+
+**Program File:** <br/>
+
+**Scenario 1, you want to insert order** <br/>
+WaiterInvoker invoker = new WaiterInvoker(); <br/>
+Order order = new Order("Steak"); <br/>
+invoker.SetOrderCommand("OrderCommand"); <br/>
+invoker.ExecuteCommand(Order orderToBeCreated) --> calls into Restaurant.ExecuteCommand() --> calls InsertOrderCommand.Execute(order) <br/>
+**Result: Order was inserted** <br/> <br/>
+
+**Scenario 2, you would like to modify the order created above** <br/>
+invoker.SetOrderCommand("ModifyCommand") <br/>
+Order moddedOrder = new Order("Chicken") <br/>
+invoker.ExecuteCommand(moddedOrder) <br/>
+**Result: Order will now be for chicken not steak**<br/>
