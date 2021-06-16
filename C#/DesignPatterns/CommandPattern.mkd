@@ -1,10 +1,33 @@
 # Command Design Pattern
 
+## Structure
+
+- Invoker (Runs and keeps track of the commands that are being invoked)
+- Command (Used as the structure, holds the commands necessary to be invoked)
+    - Contains all the data to process a request for either now or later
+- Receiver (Command will use the receiver and run it)
+
+### Structure Flow
+
+Client --Schedule a run of the command-->  Invoker (Sets a rule to invoke at the given time) --Execute at specified time --
+--> Command --Uses--> Receiver
+
 ## What is it?
 
 ## Benefits
 
+- Allows for easy undo/redo functionality
+    - EX: App crashes, when reopened you can redo those commands
+
 ## Trade Offs
+
+## Typical Naming Conventions
+
+- Invoker, tends to be called SomethingManager
+    - Will have an invoke() method
+- Command, tends to be called SomethingCommand
+    - Will have CanExecutre(), Execute(), and Undo()
+- Receiver, tends to be called 
 
 ## Examples
 
