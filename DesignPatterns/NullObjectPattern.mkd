@@ -1,0 +1,30 @@
+# Null Object Design Pattern
+
+## What is it
+
+Creates a null (Default) object so that there is never a null reference and instead a default object. 
+
+## Problem it is tryin to fix
+
+Tons of time gets wasted attempting to account for null objects and can cost companies tons of money and time. Also adding null checks creates a rise in complexity due to the amount of null checks you would have to do. 
+
+## Benefits
+
+- Less complexity
+- Makes for less useless tests
+- Defaults can be useful to make an easier user experience
+
+## Trade offs
+
+- Defaults could hide a bigger issue
+- Without the null exception you could have a harder time finding the bug
+
+## Example
+
+- Person
+    - Name
+        - Defaults to "John Doe"
+    - Age
+        - Defaults to 40
+
+This eliminates the need for if(Name == null) and if(Age == null) and reduces complexity.
