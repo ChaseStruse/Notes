@@ -47,3 +47,6 @@ Context -> IStrategy --> Strategy Needed (USD or Bitcoin)
 
 ## Dotnet Example
 - .Sort() can take in a interface, IComparer, that allows you to pass in a strategy
+
+## Code Example
+[Repo Link](https://github.com/ChaseStruse/DesignPatternExampleProjects/tree/master/StrategyDesignPattern_CustomerReceipt)
