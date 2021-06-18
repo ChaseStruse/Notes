@@ -15,6 +15,10 @@ Split a class hierarchy through the use of composition to reduce coupling
 
 - Will have a lot of classes
 
+## Code Example
+
+[Repo Link](https://github.com/ChaseStruse/DesignPatternExampleProjects/tree/master/BridgeDesignPattern_MovieLicense)
+
 ## Example 
 
 **Online Movie Theater** <br/><br/>
