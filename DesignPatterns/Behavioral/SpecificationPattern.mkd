@@ -1,0 +1,26 @@
+# Specification Pattern
+
+## What is it?
+
+Helps avoid domain knowledge duplication and adheres to the SOLID principle of not repeating yourself. Speification pattern also take a declarative approach which allows for it to be easily maintainable and is used in Domain Driven Design.
+
+## Benefits
+
+- Easily maintainable
+- Follows Domain Driven Design principles
+- Follows SOLID principle of do not repeat
+- Allows for easier testing
+
+## Trade Offs
+
+
+## Main Use Cases
+
+- In-memory validation
+- Retrieving data from the database, helps find records that meet the specification
+- Contruction-to-order
+
+## Examples
+
+**Movie Selector** <br/>
+
