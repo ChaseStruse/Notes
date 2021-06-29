@@ -1,0 +1,33 @@
+# Choosing and Writing Good Names
+
+## Why does this matter? 
+
+Allows coders to have clear intent and helps other developers see your intent. This also helps with ensuring that you do not need unnecessary comments and regions.
+
+## Classes
+
+- Naming classes is extremely important in eliminating time spent trying to follow logic. 
+- Should define the single responsibility of the class
+- Guidlines
+    - Nouns not verbs
+    - Specific
+    - Should identify the single responsibility
+    - Avoid generic suffixes
+
+## Methods
+
+- Poor method names requires the programmer to read the entire class logic before they know what the class does
+- Should be able to read the name and understand the single resposibility of the method
+
+## General tips for naming
+
+- Rubber ducking
+    - Explain to a rubber duck what the method/class does
+    - Ask, am I describing one thing? 
+- Avoid side effects
+    - Dont allow ChargeCreditCard to send an email
+    - Dont allow the name of the method to not tell the whole story
+- Avoid using And, If, and Or
+- Avoid abbreviations
+- Booleans should sound as though you are asking a yes no question
+    - isActive, loggedIn, isUser
