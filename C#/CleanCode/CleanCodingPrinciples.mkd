@@ -39,3 +39,8 @@
     - If you are continuosly copy and pasting, watch out
 
 ## Self-documenting
+
+- Make it easy to identify your intent, having clear intent helps in the future
+- Layers of abstraction
+- Friendly formatting
+- Favor code over commenting, comments should be reduced or even removed, including regions -.-
