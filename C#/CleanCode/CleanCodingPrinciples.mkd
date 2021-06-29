@@ -7,3 +7,16 @@
 - Tech debt stems from broken and bad code and this can weigh on a team
 - Makes an environment that is easier to work in and makes maintinence less tidious
 - Being sloppy makes you slower and will continuously slow you down
+<br />
+<br />
+
+# Principles 
+
+## Selecting the right tool for the job
+
+## High signal to noise ratio (Level of designed signal to background noise)
+- Ability to understand what the code is intended to do without all the background noise
+
+
+
+## Self-documenting
