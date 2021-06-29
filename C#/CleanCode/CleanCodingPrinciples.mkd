@@ -14,6 +14,16 @@
 
 ## Selecting the right tool for the job
 
+- Non code example
+    - Using a car to transport something that should be transported in a truck
+- Code example
+    - Using regex to validate an email, this creates a lot of noise for no reason
+- Finding the right technology
+    - You want to know the boundaries of the tech you are choosing from 
+        - This will help you understand what you can and cannot do
+        - Make sure you take into account future outlook of the application
+
+
 ## High signal to noise ratio (Level of designed signal to background noise)
 - Ability to understand what the code is intended to do without all the background noise
 
