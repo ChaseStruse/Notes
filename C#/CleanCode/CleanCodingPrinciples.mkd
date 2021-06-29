@@ -22,11 +22,20 @@
     - You want to know the boundaries of the tech you are choosing from 
         - This will help you understand what you can and cannot do
         - Make sure you take into account future outlook of the application
-
+    - Don't forget every technology has its drawbacks and those must be considered
+        - One example is Blazor/MVC vs React
 
 ## High signal to noise ratio (Level of designed signal to background noise)
+
 - Ability to understand what the code is intended to do without all the background noise
-
-
+- Signal: Terse, Expressive, and Does one thing
+- Noise: Any code that is lengthy when not necessary and cluttered
+- These issues build over time 
+- Follow the DRY principle
+- Fewer lines of code = Fewer bugs = Less tech debt
+- Example
+    - Methods shouldnt have more than 7 parameters
+    - Method should have an output that is easy to understand and cant change state
+    - If you are continuosly copy and pasting, watch out
 
 ## Self-documenting
