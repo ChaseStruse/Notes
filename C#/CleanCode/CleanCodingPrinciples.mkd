@@ -1,0 +1,9 @@
+# Clean Coding Principles in C#
+
+## Why does clean code matter? 
+
+- Writing code is easy, the hard part is reading it
+    - Code is reread and or rewritten at least 10 times in its life
+- Tech debt stems from broken and bad code and this can weigh on a team
+- Makes an environment that is easier to work in and makes maintinence less tidious
+- Being sloppy makes you slower and will continuously slow you down
