@@ -31,5 +31,25 @@
   - 1 or more Outputs
 <br />
   
+### Blocks
 
+- What is a Block?
+  - Blocks are a data structure that hold and bundle transactions to then be distributed to all the nodes on the network
+  - Created by miners
+<br />
+- Parts of a Block
+  - Block Header
+    - Metadata for verification of the validity of the block
+    - Metadata contains version, previous block header hash, merkle root hash (cryptographic hash of all the transactions in the block), time of creation, nBits, random number that only the creator of a block is allowed to manipulate
+  - Transactions
+<br />
+- Types of Blocks
+  - Main Branch Blocks
+    - Extend the main blockchain
+  - Side Branch Blocks
+    - Reference a parent block that is not at the current blockchain tip (behind)
+    - If multiple blocks use this side branch block as its parent it can be merged into the main blockchain
+  - Orphan Blocks
+    - Reference a parent block that is not known
+  <br />
 
