@@ -1,0 +1,35 @@
+# Blockchain Fundamentals 
+
+## What is a Blockchain? 
+**My summary of blockchain is rather than having a central source of information, the sources are spread out across multiple computers. This to me adds security and ensures one central power cannot control everything.** <br/>
+**One example of a great use case is with finance, finance traditionally is done by one central power (the bank) and your assets are held at that central location. In the case with blockchain there is no central location for information to live and no central authority that controls your assets. This is great for individuals because it allows for better security, allows for lower fees, and helps with allowing even the smallest investor to participate.** <br />
+
+## Parts of the Blockchain
+
+### Transactions
+- What is a Transaction?
+  - Transactions are the lowest level of the blockchain, they are what in essence give the blockchain purpose
+<br />
+- Parts of a Transaction
+  - Recipient Address
+  - Sender Address
+  - Value
+<br />
+- Whats it do?
+  - Transactions introduce a change in state for the agreed upon "correct" ledger
+    - Agreed upon correct ledger? 
+      - Due to blockchain being decentralized and having multiple ledgers that are on independent machines, these all must be in sync and all agree upon the correct ledger so they do not get out of sync
+      - Each time a new transaction is introduced to the blockchain (ledger) the transaction must be approved and "agreed upon" by the rest of the blockchain
+  - Transactions are then bundled into a "block" (see next section) and delivered to each node.
+    - Each block is then verified and processed independently by each of the nodes
+<br />
+- Format of a Transaction
+  - 1 or more Inputs
+    - Will always reference a previous transactions output
+      - Allows for a constant uninterrupted and verifiable stream of value (represented by the currency such as BTC)
+    - Will have a **scriptSig** which is a cryptographic signature that shows the person who initiated the transaction is allowed to complete said transaction
+  - 1 or more Outputs
+<br />
+  
+
+
