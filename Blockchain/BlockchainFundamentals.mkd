@@ -53,3 +53,16 @@
     - Reference a parent block that is not known
   <br />
 
+### Mining
+
+- What is Mining?
+  - Mining is the process of creating a valid block using real-world work
+  - This block needs to be accepted by the rest of the network to be valid
+  - Essentially miners are taking pending transactions and converting them to blocks 
+<br />
+- Hashing
+  - Miners use hashing to turn large data into smaller hash data that can then be checked against the ledger to be verified
+    - Hashes always have the same input and the same output
+    - You cannot work backwards with a hash
+    - Miners need a valid hash to earn money
+
