@@ -1,0 +1,9 @@
+# Why redux?
+- Redux is open source and is a better more mature version of flux. 
+- State is stored in one centralized location, reducing complexity
+- Reduced boilerplate and fluff
+- Universally friendly
+- Hot reload
+- Time travel Debugging
+- Redux is small and not much to it
+
