@@ -1,0 +1,21 @@
+# Product Owner Notes
+
+## Responsibilities
+
+- Maximize the value of the product
+- Managing and being accountable for the product backlog
+- Represent the team and its responsibilities
+- Should represent only 1 single team unless 2 teams are closely related
+
+## 3 Facets of Product Ownership
+
+1. Product Management, define overall vision of the product and showing this to the team and the release strategy
+2. Business Analysis, identify requirements and business needs and keep the backlog up to date
+3. Project Manager, manage budget and ensure the team is on track
+
+You must focus on all facets to ensure that you are the best product owner possible, as soon as you lose focus of one then the others tend to fall as well.
+
+## Relation to Other Roles
+
+- Help the scrum master with your sphere of influence to remove any impedements the team may face
+- You are not the "boss" of the team, the team leads itself
