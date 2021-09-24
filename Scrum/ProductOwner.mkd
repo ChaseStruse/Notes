@@ -19,3 +19,22 @@ You must focus on all facets to ensure that you are the best product owner possi
 
 - Help the scrum master with your sphere of influence to remove any impedements the team may face
 - You are not the "boss" of the team, the team leads itself
+
+## Creating a Product Vision
+
+- The product vision should be viewed as a living guide that can be changed when business needs change
+
+- The entire team must participate in creating the product vision so everyone is aware of the vision and its goals
+  - This is also important for team buy in
+
+- You can use a product vision board, this can be found on miro 
+  
+**Product Vision MUST Haves:**
+1. WHAT (What the product will do)
+2. WHO (Who the product is for, who are the majority of users?)
+3. WHY (Why the product is solving the problem, whats the ultimate goal?)
+
+**Three traits of a Product Vision:**
+1. Shared, the entire team understands the vision
+2. Succinct, direct and to the point, should pass the 30 second elevator pitch test
+3. Emergent, grows and evolves as more about the product is learned
