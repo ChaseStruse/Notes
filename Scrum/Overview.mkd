@@ -1,0 +1,54 @@
+# Scrum Notes
+
+## What is Scrum?
+
+- Scrum is a framework, not a process
+- Defines boundaries, does not set the exact requirements, those should be decided by the team
+- Scrum is based on Empirical Process Control, which is the management theory that projects are best managed based on reality not projections
+
+## 3 Tenets of Empirical Process Control
+
+  - Inspection
+    - Constant reflection on delivering
+  - Adaptation
+    - How the team reacts to the inspection
+  - Transparency 
+    - Enables the team to correctly do an inspection
+
+## Values of Scrum
+
+- Commitment
+  - Teams must commit to the work they take on
+- Courage
+  - Ability to say no to context switching or unrealistic expectations
+- Focus
+  - Scrum team should be focused solely on the work of the team
+- Openness
+  - Team must be open and honest with one another
+- Respect
+  - Each member agrees to be respectful to one another
+
+## Incremental and Iterative Development
+
+- Projects are broken into smaller pieces
+- Teams perodically will get user feedback to help improve product and gain investment
+- Each increment should be used to get feedback
+- This allows you to make adjustments as necessary and keeps the business involved in development
+
+## Roles in the Team
+
+- Scrum Master
+  - Helps the team adhere to the scrum framework
+  - Facilitates the ceremonies
+  - Protects the team from any outside interruptions
+  - Removes any impedements such as not having a license to a product etc
+  - Mentor the entire team on scrum framework including the product owner 
+
+- Product Owner
+  - Defines and shares the overrall vision for the product
+  - For more information see ProductOwner.mkd
+
+- Development Team
+  - Team that will directly develop the product
+  - Must be cross functional and be able to operate independently 
+
