@@ -1,0 +1,42 @@
+# Ethereum Overview and General Notes
+
+## History
+
+- 2013 Ethereum Whitepaper released
+- 2014 Development started
+- 2015 Olympic Release, Ethereum network was created
+- 2017 Ethereum Enterprise Alliance created
+
+## Why was it developed?
+
+- Prior to Ethereum you had to have one blockchain per application
+- This is an issue due to the high entry barrier due to having to build your app from the ground up
+- Ethereum is a platform that allows you to have a starting point to build your app on top off
+
+## Use cases
+
+- Supports financial transactions
+- Pay for computations
+- Can develop general purpose applications
+  
+## Parts of Ethereum
+
+- Sender
+- Receiver
+- Contracts
+  - Sender can call the contracts methods, to initiate some sort of thing
+    - Example would be calling SendMoney()
+
+## Ethereum Networks
+
+- Public (Anyone can join)
+- Consortium (Can only be joined by certain groups)
+- Private (Only accessible by a single organization)
+
+## Ethereum Wallets
+
+- Do not store money or Ether
+- Store Cryptographic keys that allow you to sign contracts
+- You can have as many wallets as you want and can be created at any time
+- Can be used for payments but also used for accessing Ethereum apps
+- To get test ether go to https://www.rinkeby.io/#faucet

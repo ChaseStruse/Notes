@@ -1,0 +1,27 @@
+# Technical Concepts for Cardano network
+
+## UTxO (Unspent Transaction Output)
+
+- Wallet
+    - Public/Private Keys
+        - Addresses
+            - UTxOs
+
+- When you use an UTxO it is gone
+
+### Example
+You want want to send 10 ADA to a friend and your wallet has 100 ADA in it <br/>
+
+UTxO1 (Your wallet) --- 100 ADA ---> Transaction --- 10 ADA ---> UTx02 (Friends Wallet) <br/>
+UTxO3 (Your wallet) <--- 89 ADA --- 100 ADA - 10 ADA (Sent to Friend) - 1 ADA (Fees) <br/>
+<br/>
+
+## Transactions
+
+- Instruciotns for modifying the ledger
+- They can spend UTxOs
+- They can contain certificates, scripts (smart contracts), and metadata
+- They can mint/burn tokens
+
+- Step 1
+    - Build a unsigned transaction

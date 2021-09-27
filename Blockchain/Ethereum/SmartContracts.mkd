@@ -1,0 +1,42 @@
+# Ethereum Smart Contracts
+
+## Parts of a Smart Contract
+
+- Address
+- Balance
+- State
+- Methods
+  
+## Solidity
+
+- Solidity is the programming language that is used to create smart contracts
+- There are other languages such as Serpent and Vyper but Solidity is the most popular
+- [Documentation](https://docs.soliditylang.org/en/v0.8.7/)
+- You can return multiple parameters in a method
+
+## Variable Types
+
+bool                            // true/false
+int                             // Signed 256 bit integer
+uint                            // UnSigned 256 bit integer
+int8, int16, ... int256         // 8 to 256 bit signed ints
+uint8, uint16, ... uint256      // 8 to 256 bit UnSigned ints
+string                          // String of characters
+address                         // Ethereum address
+
+## How it works
+
+- Think of Smart Contracts like you would think about a class in OOP
+- Smart Contracts can have several instances
+- You call the methods within the Smart Contract to change state
+- Methods and Fields are static
+
+## Example Contract
+
+pragma solidity ^0.8.7;
+contract Greeter{
+    uint val;
+    function getValue() public returns (uint) {
+        return val;
+    }
+}
