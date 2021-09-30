@@ -43,12 +43,19 @@
   - Protects the team from any outside interruptions
   - Removes any impedements such as not having a license to a product etc
   - Mentor the entire team on scrum framework including the product owner 
+  - Facilitates the Sprint Retro
 
 - Product Owner
   - Defines and shares the overrall vision for the product
   - For more information see ProductOwner.mkd
+  - Can terminate the sprint
+  - Updates the release burndown chart
 
 - Development Team
   - Team that will directly develop the product
   - Must be cross functional and be able to operate independently 
+  - Conducts the daily scrum
 
+## Misc
+
+- If a sprint goal isnt met, the remaining cards go to the backlog and double check that it is still important to the stakeholders
