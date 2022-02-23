@@ -1,0 +1,32 @@
+# RESTful APIs 
+
+## What is it?
+
+- REST - REpresentational State Transfer
+- Set of architectual principles for the web and transfer of data
+
+## Parts of a REST API
+
+- Get()    - This will get data from the database/server
+- Post()   - Allows for the insertion of data
+- Put()    - Replaces an existing entity
+- Delete() - Deletes an existing entity
+
+## Benefits
+
+- Simple and standardized communication
+- Scaleable and stateless
+- High performance due to caching
+
+## Example 
+
+Video Game Store
+
+Problem: User wants to be able to add a video game to the website
+
+Solution: Create a Post() endpoint
+
+Technicals:
+
+- Create a "request" using the Video Game model that is used in the get calls
+- Return a "response" such as a 200 for success or 500 for invalid
