@@ -1,0 +1,3 @@
+# These are my notes over the book Eloquent JavaScript by Marjin Haverbeke
+
+## [Chapter 1](Chapter1.mkd)

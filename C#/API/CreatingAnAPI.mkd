@@ -1,0 +1,75 @@
+# Getting Started
+
+## Creating the project
+
+- Run command: dotnet new webapi -n NameOfProject
+- This will create a example project created by Microsoft
+- Test project by running command: dotnet run
+- Proceed to the localhost url that is given
+- add /swagger to the url to view swagger documentation
+
+## Folder Structure
+
+- Controllers
+    - Controllers will house the API endpoint
+- Repositories
+    - Repositories will house the methods that the endpoints will access
+- Models
+    - Models will contain the base model to be used
+- Dtos
+    - Dtos will be modifications to the model to display to expose to the endpoint
+- Mappers
+    - Mappers will map Models -> Dtos or vice versa
+
+
+## Creating Entities/Models
+
+- Create a Entities/Models folder
+- Create file with name
+- Instead of class use record
+- Use { get; init; } for properties that get and only initialize, creates immutability
+- init is new in .Net 5, after creation you cannot modify the property
+
+Example Model:
+```
+namespace Catalog.Entities { 
+    public record Item { 
+        public Guid Id { get; init; } 
+        public string Name { get; init; } 
+        public decimal Price { get; init; } 
+        public DateTimeOffset CreatedDate { get; init; } 
+    }
+}
+```
+
+## Repository
+
+- Repository is in charge of retrieving the data from the database
+
+Example Repository: 
+
+```
+    public class ItemRepository : IItemRepository
+    {
+        var items = new List<Items>
+        {
+            new Item 
+            {
+                Id = Guid.New(),
+                Name = "Test",
+                Price = 10,
+                CreatedDate = DateTimeOffset.Now
+            };
+        }
+
+        var itemMapper = new ItemMapper();
+
+        public ItemDto GetItem (Guid id)
+        {
+            var item = items.Where(item => item.Id == id);
+            var itemDto = itemMapper.MapToDto(item);
+
+            return itemDto; 
+        }
+    }
+```

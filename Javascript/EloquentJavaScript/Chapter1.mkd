@@ -1,0 +1,17 @@
+# Chapter 1 Values Types and Operators
+
+- You can add an exponent by adding an "e" to the number: 8e2 = 8 to the power of 2
+- \n to do a new line 
+- Use `` and ${} to embed variables etc in JavaScript
+- ${} is called a template literal
+- typeof can output the type of whatever variable or value you give it
+    - Example: console.log(typeof "Chase")
+    - Result:  -> string
+- Side note, don't know how useful it will be but you can compare strings using == and !=
+    - Example: console.log("Chase" == "Javascript")
+    - Result:  -> false
+- Logical operators such as || and && are the same as C#
+- Ternaries are similar to C# as well
+    - Example: console.log(true ? 1 : 2)
+    - Result:  -> 1 
+- Javascript does automatic type conversions so weird things like adding a string to an int wont be caught as errors in the compiler
