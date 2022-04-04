@@ -56,4 +56,4 @@
 - Things to note
   - JavaScript will not throw a compiler error if you have the wrong number of parameters in a function, it will just ignore them
   - This is also true if you do not have enough parameters JavaScript will just set them to null or undefined
-- 
+  
