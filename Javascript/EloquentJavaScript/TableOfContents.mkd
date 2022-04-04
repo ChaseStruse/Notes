@@ -4,3 +4,4 @@
 ## [Chapter 2 Program Structure](Chapter2.mkd)
 ## [Chapter 3 Functions](Chapter3.mkd)
 ## [Chapter 4 Data Structures: Objects and Arrays](Chapter4.mkd)
+## [Chapter 5 Higher Order Functions](Chapter5.mkd)

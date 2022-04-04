@@ -1,0 +1,7 @@
+# Chapter 5 Higher Order Functions
+
+- Arrays have a built in function called forEach() that will loop over all elements in the array
+- This chapter mostly revolved around abstracting large segments of code into functions
+- I didn't have a ton of notes on this due to my prior knowledge of C#
+- The biggest takeaway for me is your code should be clean and concise
+- For example your methods should be clean and to the point like breaking out a calculators methods
