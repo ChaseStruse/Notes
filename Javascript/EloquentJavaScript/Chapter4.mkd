@@ -1,0 +1,36 @@
+# Chapter 4 Data Structures: Objects and Arrays
+
+- Arrays in JavaScript allow for push() and pop()
+  - push() will add the value to the end of the array
+  - pop() will remove the last element in the array
+
+- Defining a Object
+  - Example:
+  ```
+  let worker = {
+      name: "Chase",
+      salary: 100000000,
+      tenure: 5
+  }
+  ```
+  - Object properties are all nullable by default 
+  
+- Assign Property Values
+  - Example:
+  ```
+  let workerA = {
+      name: "Chase",
+      salary: 10,
+      tenure: 1
+  };
+
+  Object.assign(workerA, {name: "ranName", salary: 100, tenure: 5});
+  //workerA will now have the new properties, you also can just do certain properties such as only salary and tenure, etc.
+  ```
+
+- JavaScript allows you to set an object equal to another by doing: objectA = objectB
+- lastIndexOf() will get the ending index of an array
+- slice() will slice the array at the given indices and create a new array with just those values
+- Json Functions
+  - stringify() converts it to a string
+  - parse() will also parse the JSON
