@@ -1,0 +1,9 @@
+# Chapter 13 JavaScript and the Browser
+
+- Network protocols describes the style of communication over a network
+  - HTTP is a network protocol
+
+- URL, Uniform Resource Locator
+- script tag allows for JS in HTML
+  - script src="js file path"
+- 
