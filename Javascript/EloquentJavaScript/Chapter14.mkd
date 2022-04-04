@@ -1,0 +1,12 @@
+# Chapter 14 The DOM
+
+- Document Object Model
+- DOM is what represents the visuals for the HTML
+- DOM was designed to be language neutral
+- DOM elements are considered Nodes
+  - Parent Nodes and Children Nodes
+- getElementByTagName allows you to get the elements based on there tags
+- document.body.insertBefore allows you to insert onto the DOM
+- parentNode.replaceChild will replace the child elements of whatever is selected
+- getAttribute allows you to get the attribute of an HTML tag
+- querySelectorAll allows you to query for a given tag
