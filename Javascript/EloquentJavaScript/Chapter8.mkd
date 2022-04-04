@@ -1,0 +1,14 @@
+# Chapter 8 Bugs and Errors
+
+- "use strict";
+  - This will make JavaScript more strict on how it interperets things
+
+- throw new Exception()
+  - This will throw an exception and stop the program
+
+- try/catch is identical to C#
+
+- Couple of key takeaways
+  - Very similar to C# in regards to error catching and handeling
+  - console.log is a great way to find out more about the errors that are happening when debugging
+  - A lot of the debugging will be done in the browser

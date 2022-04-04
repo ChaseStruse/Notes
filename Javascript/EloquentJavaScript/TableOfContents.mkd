@@ -7,3 +7,4 @@
 ## [Chapter 5 Higher Order Functions](Chapter5.mkd)
 ## [Chapter 6 Secret Life of Objects](Chapter6.mkd)
 ## Chapter 7 is a project chapter, no notes from this
+## [Chapter 8 Bugs and Errors](Chapter8.mkd)
