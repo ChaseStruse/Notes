@@ -1,0 +1,44 @@
+# Chapter 15 Handling Events
+
+- Defining an Event handler
+  - Example: 
+    ```
+    // Adds to the window
+    window.addEventListener("click", () => {
+        console.log("Window was clicked);
+    });
+
+    // Adds to the button
+    let button = document.querySelector("button");
+    button.addEventListener("click", () => {
+        console.log("Button clicked");
+    });
+
+    // Defines the Event in a variable
+    let button = document.querySelector("button");
+    button.addEventListener("click", event => {
+        console.log("Button clicked");
+        console.log(event.button) // Will return the mouse button that was clicked
+    });
+    ```
+- preventDefault() will stop a default action from occuring like redirecting to a link if its clicked
+- Key Events
+  - Example:
+  ```
+  window.addEventListener("keydown", event => {
+      console.log(event.key);
+  })
+
+  window.addEventListener("keyup", event => {
+      console.log(event.key);
+  })
+  ```
+- Other types of events
+  - Scroll 
+  - MouseMove
+  - MouseUp
+  - MouseDown
+  - MousePosition
+  - Focus
+  - Load
+  
