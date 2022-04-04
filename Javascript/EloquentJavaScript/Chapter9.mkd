@@ -1,0 +1,14 @@
+# Chapter 9 Regular Expressions (Regex)
+
+- Creating a regular expression
+  - let regex = new RegExp("abc");
+  - let regex = /abc/;
+
+- Test for matches
+  - console.log(/abc/.test("abcde"));
+    - Returns: True
+  - console.log(/abc/.test("xyz"))
+    - Returns: False
+
+This was a chapter that didn't feel like it warranted having a lot of notes over.
+Due to Regular Expressions being rare if you need to use Regex I'd refer back to the chapter.

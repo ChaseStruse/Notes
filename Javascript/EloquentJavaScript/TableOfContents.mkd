@@ -1,5 +1,5 @@
-# These are my notes over the book Eloquent JavaScript by Marjin Haverbeke
-
+# Eloquent JavaScript by Marjin Haverbeke
+## Notes on each Chapter can be found below!
 ## [Chapter 1 Values Types and Operators](Chapter1.mkd)
 ## [Chapter 2 Program Structure](Chapter2.mkd)
 ## [Chapter 3 Functions](Chapter3.mkd)
@@ -8,3 +8,4 @@
 ## [Chapter 6 Secret Life of Objects](Chapter6.mkd)
 ## Chapter 7 is a project chapter, no notes from this
 ## [Chapter 8 Bugs and Errors](Chapter8.mkd)
+## [Chapter 9 Regular Expressions](Chapter9.mkd)
