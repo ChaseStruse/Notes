@@ -1,0 +1,59 @@
+# Chapter 3 Functions
+
+- Defining a function
+    - Defining as value
+    - Example:
+    ```
+    const add = function(num) {
+        console.log(num++);
+    };
+    let subtract = function(num) {
+        console.log(num--);
+    };
+    
+    ```
+    - Declaration Notation
+    - Example: 
+    ```
+    function add(num){
+        console.log(num++)
+    }
+    
+    ```
+    - Arrow Functions
+    - Example: 
+    ```
+    const add = (num) => {
+        console.log(num)
+    };
+
+    ```
+    - Defaulting Parameter Values
+    - Example
+    ```
+    const add = (num, multiplier = 2) => {
+        console.log(num * multiplier); // This will default to num*2 unless something else is passed
+    }
+    ```
+- Function Closure
+    - Example:
+    ```
+    let multiplier = (factor) => {
+        // Multiplier returns this function
+        return number => number * factor
+    }
+
+    let twice = multiplier(2);
+    console.log(twice(5));
+
+    // Will output 10
+    ```
+
+- Why would you do one of the other? 
+    - All do the same thing and accomplish the same thing
+    - Arrow functions are used frequently in ReactJs
+    - Learn more in Chapter 6
+- Things to note
+  - JavaScript will not throw a compiler error if you have the wrong number of parameters in a function, it will just ignore them
+  - This is also true if you do not have enough parameters JavaScript will just set them to null or undefined
+- 

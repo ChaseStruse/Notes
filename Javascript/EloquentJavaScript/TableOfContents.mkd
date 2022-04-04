@@ -2,3 +2,4 @@
 
 ## [Chapter 1](Chapter1.mkd)
 ## [Chapter 2](Chapter2.mkd)
+## [Chapter 3](Chapter3.mkd)
