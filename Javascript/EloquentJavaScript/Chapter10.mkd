@@ -1,0 +1,9 @@
+# Chapter 10 Modules
+
+- Modules are great for keeping your code clean
+- They help with ensuring you do not end up with a "big ball of mud"
+- Module dependency is something to watch out for
+- Packages are hosted in npm
+- 'require' ensures that the program includes the required package
+- Rather than 'using' like in C# you use 'import'
+- You can also export functions, commonly seen in react
