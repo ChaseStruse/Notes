@@ -1,0 +1,84 @@
+# Chapter 6 Secret Life of Objects
+
+- Encapsulation is important for code reliability and testability
+- Writing a method
+  - Example: 
+  ```
+  let worker = {
+      payWorker = function(salary) {
+          console.log(`${salary} paid to worker`);
+      }
+  }
+
+  worker.payWorker(100);
+  ```
+
+- Prototypes
+  - Example
+  ```
+    let worker = {
+      payWorker = function(salary) {
+          console.log(`${salary} paid to worker`);
+      }
+  }
+
+  let itWorker = Object.create(worker);
+  itWorker.payWorker(200);
+  ```
+
+  - Maps
+   - Example:
+  ```
+  let workers = new Map();
+  worker.set("Worker 1", 100);
+
+  workers.get("Worker 1") // Will return 100
+  ```
+
+- Classes
+  - Example
+  ```
+  class Worker {
+      constructor(name) {
+          this.name = name
+      }
+      welcome(name) {
+          console.log(`Welcome ${name}`);
+      }
+
+      get name() {
+          return this.name;
+      }
+      set name(_name) {
+          this.name = _name;
+      }
+  }
+  let itWorker = new Worker("IT Guy");
+  ```
+
+- Inheritance 
+  - Example
+  ```
+  class Worker {
+      constructor(name) {
+          this.name = name
+      }
+      welcome(name) {
+          console.log(`Welcome ${name}`);
+      }
+
+      get name() {
+          return this.name;
+      }
+      set name(_name) {
+          this.name = _name;
+      }
+  }
+
+  class ItWorker extends Worker {
+      // This class now inherits from worker and has all of its properties
+  }
+  ```
+
+
+    

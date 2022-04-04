@@ -5,3 +5,5 @@
 ## [Chapter 3 Functions](Chapter3.mkd)
 ## [Chapter 4 Data Structures: Objects and Arrays](Chapter4.mkd)
 ## [Chapter 5 Higher Order Functions](Chapter5.mkd)
+## [Chapter 6 Secret Life of Objects](Chapter6.mkd)
+## Chapter 7 is a project chapter, no notes from this
