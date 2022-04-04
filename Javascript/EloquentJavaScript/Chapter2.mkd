@@ -1,0 +1,10 @@
+# Program Structure
+
+- Declaring variables
+    - Example: let name = "name";
+    - Example: const nameConstant = "name";
+    - Example: var genericVariable = 1;
+- If variable is not binded it will give "undefined"
+- do/while loops, differs from a while loop because it will execute once no matter what
+    - Example: do { console.writeline("Hello") } while (true)
+    
