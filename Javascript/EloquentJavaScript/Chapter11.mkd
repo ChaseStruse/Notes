@@ -1,0 +1,17 @@
+# Chapter 11 Asynchronous Programming
+
+- Synchronous programming, things happen one at a time
+- Asynchronous programming, multiple things can happen at the same time
+  - Allows for faster processing and good when accessing data from outside sources
+- Defining Async Functions
+  - Example
+  ```
+  async function FunctionName(){
+
+  }
+
+  //calling the function
+  await FunctionName();
+  ```
+
+
