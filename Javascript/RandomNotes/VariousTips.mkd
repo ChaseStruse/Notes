@@ -1,0 +1,50 @@
+# Random Tips and Tricks
+
+## Logging to the Console
+
+```
+// This will output the time and is great when checking performance
+console.time('timer')
+console.timeEnd('timer') 
+
+// This will display a table and is great for arrays etc
+console.table([])
+
+// This will display the information as an object and is great when needing to log multiple data points
+console.log({ variables you want to log })
+
+// This will display the information with the color orange
+console.log('%c Display in Orange', 'color: orange;')
+```
+
+## Destructuring
+
+ELiminates the need to repeatedly type object name, may also allow for not taking all parts of the object
+```
+let worker = {
+    name = 'Test',
+    salary = 100
+};
+
+// Not Destructured
+function payWorker(worker) {
+    console.log(`Paid ${worker.name} ${worker.salary});
+}
+
+// Destructured
+function payWorker({name, salary}) {
+    console.log(`Paid ${name} ${salary});
+}
+// OR
+function payWorker(worker) {
+    {name, salary} = worker;
+    console.log(`Paid ${name} ${salary});
+}
+```
+
+## Combining Objects
+
+```
+const objC = { ...objA, ...objB } // objC will now have both objA and objB properties
+```
+
