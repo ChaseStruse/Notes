@@ -15,3 +15,5 @@
 ## [Chapter 13 JavaScript and the Browser](CHapter13.mkd)
 ## [Chapter 14 The DOM](CHapter14.mkd)
 ## [Chapter 15 Handling Events](CHapter15.mkd)
+## Chapter 16 is a project chapter
+## [Chapter 17 Drawing on Canvas](Chapter17.mkd)
