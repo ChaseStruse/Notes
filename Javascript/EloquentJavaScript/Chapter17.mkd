@@ -1,1 +1,17 @@
 # Chapter 17 Drawing on Canvas
+
+- Canvas is what is used to be drawn to as the DOM was not meant for this
+- <canvas></canvas>
+- First need to get a context from the canvas
+  - let canvas = document.querySelector("canvas")
+  - let context = canvas.getContext("2d")
+  - Example:
+    ```
+    <canvas width="120" height="60"></canvas>
+    <script>    
+        let canvas = document.querySelector("canvas")
+        let context = canvas.getContext("2d")
+        context.fillStyle = "red"
+        context.fillRect(10,10,100,50)
+    </script>
+    ```
