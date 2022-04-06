@@ -1,0 +1,7 @@
+# Chapter 22 JavaScript and Performance
+
+- In the past JavaScript was so slow it was a reason to switch, that is not as much of the case now
+- Modern Compilers compile and load JS files about 10% as fast as C programs
+  - Not bad for a scripting language that used to be < 1%
+- JavaScript is compiled over and over even as the program is running
+  
