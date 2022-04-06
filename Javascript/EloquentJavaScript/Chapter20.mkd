@@ -1,0 +1,27 @@
+# Chapter 20 Node.JS
+
+- Use node to run js files by typing node jsFileName
+- No browser functionalities
+
+- Sample Program
+  ```
+  main.js:
+
+  const {reverse} = require("./reverse");
+
+  let argument = process.argv[2]; // Array position 2 because its the 3rd thing called
+
+  console.log(reverse(argument)); // When running call node main.js Chase
+
+
+  reverse.js:
+
+  exports.reverse = function(string) {
+    return Array.from(string).reverse().join("");
+  }
+  ```
+
+- NPM to install things
+- if you get a package.json warning just run npm install
+- package.json lists author, version, description, etc
+- Use the Http module for makingf calls to the server

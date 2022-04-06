@@ -19,3 +19,6 @@
 ## [Chapter 17 Drawing on Canvas](Chapter17.mkd)
 ## [Chapter 18 HTTP and Forms](Chapter18.mkd)
 ## Chapter 19 is a project chapter
+## [Chapter 20 Node.JS](CHapter20.mkd);
+## Chapter 21 is a project chapter
+## [Chapter 22 JavaScript and Performance](Chapter22.mkd);
