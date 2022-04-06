@@ -1,2 +1,23 @@
 # Chapter 18 HTTP and Forms
 
+- When the page is loaded the HTML makes the GET, PUT, etc 
+- When a form is completed its data can be sent over HTTP 
+- Fetch
+  - Example
+  ```
+  fetch("example/data.txt").then(response => {
+      console.log(response.status);
+  });
+  ```
+  - response in this case is the promise that is returned from the call
+  - https prevents data from being stolen
+  - input type of password will hide the text 
+  - select/option tag is used for dropdowns in a form
+  - focus() sets focus to the input field
+  - blur() will remove focus from an element
+  - Adding tabindex=0 to the html tag will set tab order
+  - Adding disabled to the html tag will disable the tag
+  - input type="file" will allow for file upload
+    - you can add multiple after the type to allow for multiple uploads
+  - To read the files uploaded you must use a file reader
+  - localStorage allows you to store information locally to the browser and will survive a refresh
