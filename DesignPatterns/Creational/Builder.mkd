@@ -1,0 +1,48 @@
+# Builder Design Pattern
+
+## Purpose
+
+Seperate the construction of a complex object from iTs representation so that the same construction process can create different representations
+
+### Example
+
+This will build off the Home Building example that is shown in AbstractFactory.
+
+- Abstract Class HomeBuilder
+  - BuildInterior()
+  - BuildExterior()
+  - IHome
+
+- Class RanchHomeBuilder : HomeBuilder
+  - BuildInterior()
+    - Does the steps for building a ranch style interior
+  - BuildExterior()
+    - Does the steps for building a ranch style exterior
+
+- Class SplitLevelHomeBuilder : HomeBuilder
+  - BuildInterior()
+    - Does the steps for building a split level interior
+  - BuildExterior()
+    - Does the steps for building a split level exterior
+
+- Class ModernTwoStoryHomeBuilder : HomeBuilder
+  - BuildInterior()
+    - Does the steps for building a modern two story interior
+  - BuildExterior()
+    - Does the steps for building a modern two story exterior
+
+- Abstract Class HomeDirector
+  - Build(HomeBuilder builder)
+    - Returns IHome
+
+- Class RanchStyleHomeDirector : HomeDirector
+  - Build(builder)
+    - This will call the necessary build methods and return the built home
+
+- Class SplitLevelDirector : HomeDirector
+  - Build(builder)
+    - This will call the necessary build methods and return the built home
+
+- Class ModernTwoStoryDirector : HomeDirector
+  - Build(builder)
+    - This will call the necessary build methods and return the built home
