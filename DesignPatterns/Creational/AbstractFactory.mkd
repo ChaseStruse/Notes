@@ -1,0 +1,39 @@
+# Abstract Factory Design Pattern
+
+## Purpose
+
+Provide and interface for creating families of related or dependent objects without specifying the concrete class
+
+### Quick Example
+
+For instance if you are a housing company and you have a set of 3 different houses each of the types of house will have a different shell.
+For example, one may be a ranch house, so you will use the ranch style shell, or you may have a split level and use the split level shell.
+With this we will create a 'Factory' that will have abstract methods to create the home. </br>
+
+- AbstractHomeFactory
+  - CreateExterior()
+    - Returns: IExterior
+  - CreateInterior()
+    - Returns: IInterior
+
+These will inherit from the AbstractHomeFactory
+
+- RanchHomeFactory : AbstractHomeFactory
+  - CreateExterior()
+    - Returns: new RanchExterior()
+  - CreateInterior()
+    - Returns: new RanchExterior()
+- SplitLevelHomeFactory : AbstractHomeFactory
+  - CreateExterior()
+    - Returns: new SplitLevelHomeExterior()
+  - CreateInterior()
+    - Returns: new SplitLevelHomeInterior()
+- ModernTwoLevelHomeFactory : AbstractHomeFactory
+  - CreateExterior()
+    - Returns: new ModernTwoLevelExterior()
+  - CreateInterior()
+    - Returns: new ModernTwoLevelInterior()
+
+These factories will override the CreateExterior and CreateInterior methods
+
+The client will then just need to implement the AbstractHomeFactory of its choice without having to worry about the others.
