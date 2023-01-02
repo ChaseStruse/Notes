@@ -1,0 +1,6 @@
+# Vim Tips and Tricks
+
+## Opening Documents
+
+- Open to certain line: nvim filename.fileextension + linenumber
+
