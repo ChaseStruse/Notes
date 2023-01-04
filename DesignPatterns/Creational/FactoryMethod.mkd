@@ -1,0 +1,17 @@
+# Factory Method
+
+Factory method replaces direct object construction calls (using the new keyword, new Object()) with a call to a factory method.
+The objects are then created in the factory method and returned. 
+
+## Example
+
+For example you have a logistics company that deals primarily with trucks, one day you want to expand into ports using ships.
+With all of your codebase pointing towards trucks you would have to introduce a lot of conditionals to incorporate these changes.
+Factories can help by introducing LogisticsFactory, this factory has a method called createTransport(), createTransport creates 
+either a Ship object or a truck object based on what is necessary.
+
+### Benefits
+
+Factory method benefits code that may require different objects depending on the logic and allows you to not have to implement
+a bunch of conditionals and rather you just need to introduce the necessary factories. This also helps with code testability 
+and creates a better codebase that can more easily be maintained. 
