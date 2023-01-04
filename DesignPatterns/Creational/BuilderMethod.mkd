@@ -1,0 +1,16 @@
+# Builder Method
+
+Builder method allows you to create construct objects step by step based on what is necessary. 
+
+## Example
+
+- Problem, you want to have a house object, this house can have a garage, swimming pool, fancy statues, or a garden
+- You could just use a house object that sets those things to null if not in use, but this is bad design 
+- For a solution you can add builder methods
+- EX: HouseBuilder() -> buildWalls(), buildDoors(), buildWindows(), buildRoof(), buildGarage(), buildFancyStatues(), getResult() -> returns House object
+
+### Benefits
+
+Builders allow you to turn complex code into smaller easy to test functions that are cleaner and easier to maintain. From a testability
+stand point builders are great. Just be cautious not to over use them where they are not necessary otherwise you will have a lot of code
+for no reason. Because even though builders are great constructors have their place as well. 
