@@ -5,11 +5,11 @@
 
 ## Docs
 
-[Getting Started Page](https://nextjs.org/docs/getting-started)
-[Data Fetching](https://nextjs.org/docs/basic-features/data-fetching/overview)
-[Routing](https://nextjs.org/docs/api-routes/introduction)
+[Getting Started Page]('https://nextjs.org/docs/getting-started')
+[Data Fetching]('https://nextjs.org/docs/basic-features/data-fetching/overview')
+[Routing]('https://nextjs.org/docs/api-routes/introduction')
 
 ## Links to my projects
 
-[Strusefolio](https://github.com/ChaseStruse/strusefolio)
-[SportsBot](https://github.com/ChaseStruse/sports-bot)
+[Strusefolio]('https://github.com/ChaseStruse/strusefolio')
+[SportsBot]('https://github.com/ChaseStruse/sports-bot')
