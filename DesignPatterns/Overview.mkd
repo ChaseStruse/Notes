@@ -3,19 +3,21 @@
 **Software Design Pattern:** A software design pattern is a general, reusable solution
 to a commonly occuring problem within a given context
 
-**Importance of Design Patterns:** 
+**Importance of Design Patterns:**
+
 - Avoid reinventing the wheel
 - Allows for better effectiveness and less duplicated code
 - Help advance career
 - Improves communication with other developers
 
 **Pattern Definition:**
+
 - **Name and Classification**
 - **Intent**
 - Also Known As
 - **Motivation or Scenario**
 - **Applicablility or Context**
-- Structure 
+- Structure
 - Participants
 - Collaboration (How do they interact with one another)
 - Consequences/Trade offs
@@ -23,9 +25,9 @@ to a commonly occuring problem within a given context
 - Sample Code
 - Known Uses
 - Related Patterns and how they can be used together
-* Bolded are bare minimum
 
 **When to apply?**
+
 - Start by doing a kata or exercise
 - Use tests to verify that the code still works the same
 - Attempt different variations of said pattern
@@ -33,6 +35,7 @@ to a commonly occuring problem within a given context
 - When using a new pattern in code ensure tests are wrapped around said code
 
 **Patterns Worth Looking Into:**
+
 - Strategy
 - Repository
 - Adapter

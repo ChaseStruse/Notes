@@ -11,4 +11,4 @@ List of my notes on different technologies!
 [NextJs]('https://github.com/ChaseStruse/sports-bot')
 [React]('https://github.com/ChaseStruse/Notes/tree/master/React')
 [Scrum]('https://github.com/ChaseStruse/Notes/tree/master/Scrum')
-[]
+
