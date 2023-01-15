@@ -1,0 +1,15 @@
+# Starting a new NextJs Project 
+
+- Use command: create next-app --typescript
+- This will create a base template project much like create react app
+
+## Docs
+
+[Getting Started Page](https://nextjs.org/docs/getting-started)
+[Data Fetching](https://nextjs.org/docs/basic-features/data-fetching/overview)
+[Routing](https://nextjs.org/docs/api-routes/introduction)
+
+## Links to my projects
+
+[Strusefolio](https://github.com/ChaseStruse/strusefolio)
+[SportsBot](https://github.com/ChaseStruse/sports-bot)
