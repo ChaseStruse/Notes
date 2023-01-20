@@ -1,0 +1,11 @@
+# Developer Talk Ideas
+
+Ideas for developer talks I could possibly give in the future
+
+## Ideas
+
+- Struggles of a junior developer
+- Python clean architecture
+- From junior dev to whatever the hell is after that
+- Video tutorial hell
+
