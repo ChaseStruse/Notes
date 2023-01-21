@@ -1,0 +1,18 @@
+# Rust
+
+"A language empowering everyone to build reliable and efficient software."
+
+## Why Rust?
+
+- Fast and memory efficient
+- No garbage collector
+- Memory safety
+- Good documentation
+- Friendly compiler messages
+
+### Learning Materials
+
+- [Learn Rust Website](https://www.rust-lang.org/learn)
+- [The Book](https://doc.rust-lang.org/book/)
+- [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021)
+
