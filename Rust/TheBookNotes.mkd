@@ -6,11 +6,32 @@
 
 Anatomy of a Rust Program <br />
 <br />
-`fn main() {
+fn main() {
             
-}`           <br />
+}           
+<br />
 
 main functions are important due to them being the first function that gets run in a rust program. <br />
 Rust requires {} and functions are defined with fn <br />
 `println!("Hello, world!");` // This is how you print to the console in rust <br />
+
+Things to note:
+- Rust indents with four spaces not tabs
+- `println!` calls a macro called `println` this is indicated by the `!` more about this later
+- Most lines of rust code end with a semicolon
+<br />
+Compile rust with `rustc` command <br />
+ex: `rustc main.rs` <br />
+run the shell script created  <br />
+ex: `./main`  <br />
+<br />
+Hello Cargo <br />
+- Cargo is rusts build system and package manager
+- Used to manage rust projects because cargo handles most tasks for you
+    - Ex: Cargo handles building your code 
+    - Ex: Cargo handles downloading libraries code is dependent on
+    - Ex: Cargo builds those libraries as well
+
+
+
 
