@@ -26,11 +26,11 @@ run the shell script created  <br />
 ex: `./main`  <br />
 <br />
 Hello Cargo <br />
-- Cargo is rusts build system and package manager
-- Used to manage rust projects because cargo handles most tasks for you
-- Ex: Cargo handles building your code 
-- Ex: Cargo handles downloading libraries code is dependent on
-- Ex: Cargo builds those libraries as well
+- Cargo is rusts build system and package manager                       <br />
+- Used to manage rust projects because cargo handles most tasks for you <br />
+- Ex: Cargo handles building your code                                  <br />
+- Ex: Cargo handles downloading libraries code is dependent on          <br />
+- Ex: Cargo builds those libraries as well                              <br />
 
 
 
