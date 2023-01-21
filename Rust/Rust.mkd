@@ -16,3 +16,9 @@
 - [The Book](https://doc.rust-lang.org/book/)
 - [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021)
 
+#### Getting Started
+
+- cargo new your-project-name
+- This will create a project for you with a main file
+- Run the project from vscode or run from the terminal
+
