@@ -1,0 +1,15 @@
+# The Book
+
+[The Book](https://doc.rust-lang.org/book/)
+
+## 1.) Getting Started
+
+Anatomy of a Rust Program <br />
+<br />
+fn main() { <br />
+            <br />
+}           <br />
+
+main functions are important due to them being the first function that gets run in a rust program. <br />
+Rust requires {} and functions are defined with fn <br />
+
