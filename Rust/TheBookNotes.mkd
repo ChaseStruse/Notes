@@ -68,7 +68,46 @@ Another way to access data in a tuple is to do the following: `let five_hundred 
 <br />
 To declare an array you do the following: `let arr: [i32, 4] = [1, 2, 3, 4];` <br />
 To access data in an array you do the following: `arr[0];  //1` <br />
+<br />
 
+Functions <br />
+To declare a function you do the following:
+```
+fn test_func() {
 
+}
+```
+<br />
+To declare a function with parameters you do the following:
+```
+fn test_func(x: i32){
 
+}
+```
+<br />
+To declare a function with a return value you do the following:
+```
+fn return_x_please(x: i32) -> i32 {
+    return x;
+}
+```
+<br />
+
+Control Statements <br />
+To use an if/elseif/else statment you do the following:
+```
+if 1 < 5 {
+    println!("Nice");
+} else if 1 > 5 {
+    println!("Wait what?");
+} else {
+    println!("Not nice");
+}
+
+```
+<br />
+You can use an if statement in a variable declaration by doing the following: <br />
+`let x = if true { 5 } else { 6 };  // x = 5` <br />
+<br />
+Loops <br />
 
