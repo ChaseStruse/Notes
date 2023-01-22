@@ -31,7 +31,23 @@ Hello Cargo <br />
 - Ex: Cargo handles building your code                                  <br />
 - Ex: Cargo handles downloading libraries code is dependent on          <br />
 - Ex: Cargo builds those libraries as well                              <br />
+<br />
 
+## Common Programming Concepts
 
+[Chapter Found Here](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html) <br /> 
+
+Variables and Mutability in Rust are different than most languages. By defualt a variable in rust is immutable (can't be changed). <br />
+To declare a standard variable in rust you do the following: `let x: u32 = 1;   // u32 is optional you dont have to specify type` <br />
+To declare a mutable variable you do the following: `let mut x: u32 = 1;` <br />
+To declare a constant variable you do the following: `const HOURS_IN_THE_DAY: u32 = 24;` <br />
+<br />
+
+Shadowing <br />
+Rust allows you to shadow a variable which means you can declare a variable with the same name. Confusing? Heres a code example: <br />
+```
+let x = 5;
+let x = x + 5;
+```
 
 
