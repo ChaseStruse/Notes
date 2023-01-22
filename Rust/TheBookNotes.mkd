@@ -49,5 +49,26 @@ Rust allows you to shadow a variable which means you can declare a variable with
 let x = 5;
 let x = x + 5;
 ```
+One major difference between shadowing and mut is that you can change the data type. Confusing? Heres a code example: <br />
+```
+let spaces = "    ";
+let spaces = spaces.len();
+```
+<br />
+
+Data Types <br />
+Rust is a statically typed languaged meaning rust must know the type of all variables at compile time. Most of the time the compiler <br />
+will infer the data type based on the data given to the variable. <br />
+<br />
+
+Compound Types <br />
+To declare a tuple you do the following: `let tup: (i32, f64, u8) = (500, 1.2, 1);` <br />
+To access data in a tuple you do the following: `let (x, y, z) = tup;  //x = 500, y = 1.2, z = 1` <br />
+Another way to access data in a tuple is to do the following: `let five_hundred = tup.0;` <br />
+<br />
+To declare an array you do the following: `let arr: [i32, 4] = [1, 2, 3, 4];` <br />
+To access data in an array you do the following: `arr[0];  //1` <br />
+
+
 
 
