@@ -109,5 +109,122 @@ if 1 < 5 {
 You can use an if statement in a variable declaration by doing the following: <br />
 `let x = if true { 5 } else { 6 };  // x = 5` <br />
 <br />
+
 Loops <br />
+
+This code block creates a loop that can only be exited manually by stopping it in the console
+```
+loop {
+    println!("again!");
+}
+```
+Return values from the loop by doing the following:
+```
+let mut counter = 0;
+
+let result = loop {
+    counter += 1;
+
+    if counter == 10 {
+        break counter * 2;
+    }
+};
+
+// result = counter * 2
+```
+In the case of nested loops you can use loop labels to identify the outermost loop.
+```
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {count}");
+        let mut remaining = 10;
+
+        loop {
+            println!("remaining = {remaining}");
+            if remaining == 9 {
+                break;
+            }
+            if count == 2 {
+                break 'counting_up;
+            }
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+```
+In this example the loop label is 'counting_up, and that loop will be broken when count = 2, the inner most loop is broken when remaining = 9 <br /> 
+<br /> 
+While Loops  <br />
+```
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{number}!");
+
+        number -= 1;
+    }
+```
+<br />
+For Loops <br />
+```
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+```
+Here is another example using rev() <br />
+```
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
+```
+<br />
+
+## Ownership
+
+What is ownership in rust? <br /> 
+Ownership is a set of rules that govern how Rust program manages memory<br /> 
+Unlike other languages Rust manages memory by using a set of rules that the compiler checks <br /> 
+<br /> 
+The Stack and the Heap <br /> 
+The stack and the heap is an extremely important concept when it comes to systems programming languages like Rust. <br /> 
+It is important to distinguish whether the value is on the stack or the heap because that affects how the language behaves. <br />  
+Notes regarding Stack vs Heap <br /> 
+- Stack stores the values it recieves in order and in turn removes the values in opposite order, last in first out 
+- Adding data to the stack is referred to as pushing onto the stack
+- Removing data from the stack is referred to as popping off the stack
+- Heap is less organized
+- When you put data in the heap you request a certain amount of space to be allocated, during this the memory allocator will return a pointer once the location is found
+- That process is known as either allocating on the heap or just allocating 
+- You can store the value on the stack but to get the actual value you have to access the heap with the pointer
+- Pushing to the stack is faster than allocating on the Heap
+- Accessing data on the stack is also faster than accessing data on the heap due to having to follow the pointer to get to the value
+<br /> 
+Ownership Rules
+- Each value in Rust has an owner
+- There can only be one owner at a time 
+- When owner goes out of scope the value is dropped
+<br /> 
+For these examples it will be using the String data type. <br />
+```
+#![allow(unused)]
+fn main() {
+    let s = String::from("hello");
+}
+```
+In this example we are using a String type that manages data allocated on the heap thus making room to change the data size after compile time <br />
+We can mutate this string in the following ways:
+```
+fn main() {
+    let mut s = String::from("hello");
+
+    s.push_str(", world!"); // push_str() appends a literal to a String
+
+    println!("{}", s); // This will print `hello, world!`
+}
+```
+
 
