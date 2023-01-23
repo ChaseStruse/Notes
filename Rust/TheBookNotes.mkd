@@ -204,7 +204,27 @@ Notes regarding Stack vs Heap <br />
 - Accessing data on the stack is also faster than accessing data on the heap due to having to follow the pointer to get to the value
 <br /> 
 Ownership Rules
+- Each value in Rust has an owner
+- There can only be one owner at a time 
+- When owner goes out of scope the value is dropped
+<br /> 
+For these examples it will be using the String data type. <br />
+```
+#![allow(unused)]
+fn main() {
+    let s = String::from("hello");
+}
+```
+In this example we are using a String type that manages data allocated on the heap thus making room to change the data size after compile time <br />
+We can mutate this string in the following ways:
+```
+fn main() {
+    let mut s = String::from("hello");
 
+    s.push_str(", world!"); // push_str() appends a literal to a String
 
+    println!("{}", s); // This will print `hello, world!`
+}
+```
 
 
