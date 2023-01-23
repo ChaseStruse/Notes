@@ -185,6 +185,26 @@ Here is another example using rev() <br />
 
 ## Ownership
 
+What is ownership in rust? <br /> 
+Ownership is a set of rules that govern how Rust program manages memory<br /> 
+Unlike other languages Rust manages memory by using a set of rules that the compiler checks <br /> 
+<br /> 
+The Stack and the Heap <br /> 
+The stack and the heap is an extremely important concept when it comes to systems programming languages like Rust. <br /> 
+It is important to distinguish whether the value is on the stack or the heap because that affects how the language behaves. <br />  
+Notes regarding Stack vs Heap <br /> 
+- Stack stores the values it recieves in order and in turn removes the values in opposite order, last in first out 
+- Adding data to the stack is referred to as pushing onto the stack
+- Removing data from the stack is referred to as popping off the stack
+- Heap is less organized
+- When you put data in the heap you request a certain amount of space to be allocated, during this the memory allocator will return a pointer once the location is found
+- That process is known as either allocating on the heap or just allocating 
+- You can store the value on the stack but to get the actual value you have to access the heap with the pointer
+- Pushing to the stack is faster than allocating on the Heap
+- Accessing data on the stack is also faster than accessing data on the heap due to having to follow the pointer to get to the value
+<br /> 
+Ownership Rules
+
 
 
 
