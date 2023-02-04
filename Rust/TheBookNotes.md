@@ -4,22 +4,25 @@
 
 ## Getting Started
 
-Anatomy of a Rust Program <br />
-<br />
+Anatomy of a Rust Program 
+
+```
 fn main() {
             
 }           
-<br />
+```
 
-main functions are important due to them being the first function that gets run in a rust program. <br />
-Rust requires {} and functions are defined with fn <br />
-`println!("Hello, world!");` // This is how you print to the console in rust <br />
+main functions are important due to them being the first function that gets run in a rust program. \
+Rust requires {} and functions are defined with fn \
+`println!("Hello, world!");` // This is how you print to the console in rust \
 
+***
 Things to note:
 - Rust indents with four spaces not tabs
 - `println!` calls a macro called `println` this is indicated by the `!` more about this later
 - Most lines of rust code end with a semicolon
 <br />
+
 Compile rust with `rustc` command <br />
 ex: `rustc main.rs` <br />
 run the shell script created  <br />
@@ -77,21 +80,21 @@ fn test_func() {
 
 }
 ```
-<br />
+
 To declare a function with parameters you do the following:
 ```
 fn test_func(x: i32){
 
 }
 ```
-<br />
+
 To declare a function with a return value you do the following:
 ```
 fn return_x_please(x: i32) -> i32 {
     return x;
 }
 ```
-<br />
+
 
 Control Statements <br />
 To use an if/elseif/else statment you do the following:
@@ -103,13 +106,12 @@ if 1 < 5 {
 } else {
     println!("Not nice");
 }
-
 ```
-<br />
+
 You can use an if statement in a variable declaration by doing the following: <br />
 `let x = if true { 5 } else { 6 };  // x = 5` <br />
-<br />
 
+***
 Loops <br />
 
 This code block creates a loop that can only be exited manually by stopping it in the console
@@ -118,6 +120,7 @@ loop {
     println!("again!");
 }
 ```
+
 Return values from the loop by doing the following:
 ```
 let mut counter = 0;
@@ -132,6 +135,7 @@ let result = loop {
 
 // result = counter * 2
 ```
+
 In the case of nested loops you can use loop labels to identify the outermost loop.
 ```
     let mut count = 0;
