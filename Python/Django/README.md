@@ -21,5 +21,8 @@ Below you will find a step by step walk through of getting a django project star
 
 7. Celebrate this wonderful accomplishment!
 
+### Whats next? 
+
+If you are looking to create an api navigate to the Api Folder.
 
 
